@@ -1,0 +1,1 @@
+Optional assets folder. Add your profile image as profile.jpg and your CV as resume.pdf. The current portfolio uses initials until you add a photo.
