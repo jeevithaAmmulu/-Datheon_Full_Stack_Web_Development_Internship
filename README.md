@@ -1,38 +1,103 @@
-# Jeevitha L — Developer Portfolio
+# 🌐 Jeevitha L | Developer Portfolio
 
-A responsive personal developer portfolio built with HTML5, CSS3 and vanilla JavaScript.
+<p align="center">
+  <b>Information Science & Engineering Student | Aspiring Software Developer</b>
+</p>
 
-## Features
-- Responsive layout for desktop, tablet and mobile
-- Dark/light theme toggle (remembers the selected theme in the browser)
-- Mobile hamburger navigation
-- Smooth scrolling and active navigation state
-- Project detail popups
-- Contact form that prepares an email in the visitor's email application
-- Download résumé link
+<p align="center">
+  A personal portfolio website showcasing my skills, projects, education, certifications and journey in software development.
+</p>
 
-## Run locally
-1. Download or clone this repository.
-2. Open the folder in Visual Studio Code.
-3. Open `index.html` in a browser, or use the VS Code Live Server extension.
-4. Edit the content and test all links before publishing.
+---
 
-## Personalise before submission
-- Replace `your-email@example.com` with your real email in `index.html` and `script.js`.
-- Replace the GitHub and LinkedIn profile links with your own.
-- Add your real résumé at `assets/resume.pdf`.
-- Add a profile photo if desired (the current hero uses initials).
-- Verify every project description and technology list. Keep only features you have actually implemented.
-- Add screenshots and source-code links for completed projects.
+## 👩‍💻 About Me
 
-## Deploy with GitHub Pages
-1. Create a public GitHub repository and upload these files.
-2. In the repository, open **Settings → Pages**.
-3. Under Build and deployment, select **Deploy from a branch**.
-4. Choose the `main` branch and `/ (root)` folder, then save.
-5. Wait for the published URL to appear in the Pages section.
+Hello! I'm Jeevitha L, an Information Science and Engineering student passionate about software development, web technologies, database management and emerging technologies.
 
-You can also import the repository into Vercel and deploy it as a static site.
+I enjoy building practical projects, exploring new technologies and continuously improving my programming and problem-solving skills. This portfolio represents my academic journey, technical abilities, projects and achievements.
 
-## Suggested repository description
-A responsive dark-themed developer portfolio built using HTML, CSS and JavaScript.
+- 🎓 Information Science & Engineering
+- 💻 Interested in Web Development and Software Development
+- 🚀 Passionate about learning new technologies
+- 🤝 Interested in collaboration, internships and innovative projects
+
+---
+
+## 🛠️ Tech Stack
+
+- **Languages:** Java, Python, C, C++
+- **Web Technologies:** HTML, CSS, JavaScript
+- **Database:** SQL, DBMS
+- **Tools:** Git, GitHub, VS Code
+- **Other Interests:** UI/UX, AI, Software Engineering
+
+---
+
+## 📂 Projects
+
+### 🏦 Bank Management System
+A Java-based bank management application designed to manage banking operations and customer transactions.
+
+- Technologies: Java, SQL, DBMS
+- Features: Account management, banking operations and transaction management.
+
+### 📦 Inventory Management System
+A system developed to manage inventory operations, product records and stock-related activities.
+
+- Technologies: Java, SQL, DBMS
+- Features: Product management, inventory tracking and stock operations.
+
+### 🚑 RESQFLOW – Smart Ambulance Traffic Management
+An innovative smart traffic management project focused on helping ambulances reach hospitals faster through intelligent traffic coordination.
+
+- Focus: Smart traffic management and emergency response
+- Technologies: Hardware components, sensors and smart traffic concepts
+- Goal: Improve emergency response and reduce ambulance delays.
+
+---
+
+## 🎓 Education
+
+- **Bachelor of Engineering – Information Science & Engineering**
+- HNN College of Engineering, Bengaluru
+- 2024–2028
+
+---
+
+## 🏅 Certifications
+
+- Oracle Academy – Java Programming
+- Coursera – Introduction to Git and GitHub
+- IBM SkillsBuild – AI Fundamentals
+- IBM SkillsBuild – Project Management Fundamentals
+- EY & Microsoft – AI Skills Passport
+
+---
+
+## 🌱 Volunteering & Activities
+
+- Participated in NSS and community activities.
+- Contributed to environmental cleanliness and plantation activities.
+- Participated in community teaching and awareness initiatives.
+
+---
+
+## 📫 Connect With Me
+
+- **GitHub:** [JeevithaAmmulu](https://github.com/JeevithaAmmulu)
+- **LinkedIn:** [Jeevitha L](https://www.linkedin.com/in/jeevitha-l)
+- **Email:** jeeviammulu2005@gmail.com
+
+---
+
+## 🌐 Portfolio Website
+
+This repository contains the source code for my personal developer portfolio website.
+
+Built using HTML, CSS and JavaScript.
+
+---
+
+<p align="center">
+  <b>Thank you for visiting my portfolio! ✨</b>
+</p>
