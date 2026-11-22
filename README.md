@@ -1,4 +1,3 @@
-# 🌐 Jeevitha L | Developer Portfolio
 
 **Datheon Full-Stack Web Development Internship**
 
