@@ -3,9 +3,9 @@
 
 Repository containing full-stack web development projects built by Jeevitha L during the Datheon Full-Stack Web Development Internship
 
-Completed Tasks
+**Completed Tasks**
 
-Task 1 — Personal Developer Portfolio: task-01-portfolio/
+**Task 1 — Personal Developer Portfolio: task-01-portfolio/**
 
 Live Demo: https://datheon-full-stack-web-development-roan.vercel.app/
 
