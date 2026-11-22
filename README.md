@@ -1,5 +1,4 @@
 
-=======
 # 🌐 Datheon Full-Stack Web Development Internship
 
 Repository containing full-stack web development projects built by Jeevitha L during the Datheon Full-Stack Web Development Internship
@@ -33,9 +32,6 @@ An innovative smart traffic management project focused on helping ambulances rea
 - Technologies: Hardware components, sensors and smart traffic concepts
 - Goal: Improve emergency response and reduce ambulance delays.
 
----
-
->>>>>>> 6777e53 (Updated README description)
 
 ## 📫 Connect With Me
 
