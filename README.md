@@ -2,7 +2,7 @@
 
 **Datheon Full-Stack Web Development Internship**
 
-Repository containing full-stack web development projects built by **Jeevitha L **during the Datheon Full-Stack Web Development Internship.
+Repository containing full-stack web development projects built by Jeevitha L during the Datheon Full-Stack Web Development Internship.
 
 **Completed Tasks**
 
