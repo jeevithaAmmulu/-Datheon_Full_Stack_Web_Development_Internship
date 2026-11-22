@@ -1,0 +1,233 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager | My Workspace</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app-container">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+
+            <div class="logo">
+                <span class="logo-icon">✓</span>
+                <h2>TaskFlow</h2>
+            </div>
+
+            <div class="sidebar-menu">
+                <p class="menu-heading">MENU</p>
+
+                <button class="menu-item active" data-filter="all">
+                    <span>▦</span> All Tasks
+                </button>
+
+                <button class="menu-item" data-filter="active">
+                    <span>◷</span> Active Tasks
+                </button>
+
+                <button class="menu-item" data-filter="completed">
+                    <span>✓</span> Completed
+                </button>
+            </div>
+
+            <div class="sidebar-bottom">
+                <div class="profile">
+                    <div class="avatar">J</div>
+                    <div>
+                        <h4>My Workspace</h4>
+                        <p>Personal Account</p>
+                    </div>
+                </div>
+            </div>
+
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+
+            <header class="top-header">
+                <button id="themeToggle" class="theme-toggle">
+    ☀️ Light Mode
+</button>
+                <div>
+                    <p class="welcome">WELCOME BACK 👋</p>
+                    <h1>My Tasks</h1>
+                    <p class="subtitle">Organize your day and achieve your goals.</p>
+                </div>
+
+                <div class="date-display" id="currentDate"></div>
+            </header>
+
+            <!-- Statistics -->
+            <section class="stats-container">
+
+                <div class="stat-card">
+                    <p>Total Tasks</p>
+                    <h2 id="totalTasks">0</h2>
+                    <span>All your tasks</span>
+                </div>
+
+                <div class="stat-card">
+                    <p>Active Tasks</p>
+                    <h2 id="activeTasks">0</h2>
+                    <span>Tasks in progress</span>
+                </div>
+
+                <div class="stat-card">
+                    <p>Completed</p>
+                    <h2 id="completedTasks">0</h2>
+                    <span>Successfully finished</span>
+                </div>
+
+            </section>
+    
+            <!-- Add Task -->
+            <section class="task-section">
+
+                <div class="section-header">
+                    <div>
+                        <h2>Manage Your Tasks</h2>
+                        <p>Keep track of everything you need to do.</p>
+                    </div>
+                </div>
+
+                <form id="taskForm" class="task-form">
+
+                    <input
+                        type="text"
+                        id="taskInput"
+                        placeholder="Enter a new task..."
+                        required
+                    >
+
+                    <select id="categoryInput">
+                        <option value="Study">Study</option>
+                        <option value="Work">Work</option>
+                        <option value="Personal">Personal</option>
+                    </select>
+
+                    <input type="date" id="dueDateInput">
+
+                    <button type="submit" class="add-btn">
+                        + Add Task
+                    </button>
+
+
+                </form>
+
+                <!-- Search and Filter -->
+                <div class="task-controls">
+
+                    <input
+                        type="text"
+                        id="searchInput"
+                        placeholder="🔍 Search tasks..."
+                    >
+
+                    <select id="categoryFilter">
+                        <option value="all">All Categories</option>
+                        <option value="Study">Study</option>
+                        <option value="Work">Work</option>
+                        <option value="Personal">Personal</option>
+                    </select>
+
+                </div>
+
+                <!-- Task List -->
+                <div class="task-list-header">
+                    <h3>Your Task List</h3>
+                    <span id="taskCount">0 Tasks</span>
+                </div>
+
+                <div id="taskList" class="task-list">
+
+                    <div class="empty-state">
+                        <div class="empty-icon">📝</div>
+                        <h3>No tasks yet!</h3>
+                        <p>Add your first task to get started.</p>
+                    </div>
+
+                </div>
+
+            </section>
+
+<!-- PRODUCTIVITY PROGRESS SECTION -->
+
+
+<!-- TASK COMPLETION ANALYTICS -->
+<section class="analytics-section">
+
+    <div class="analytics-header">
+        <div>
+            <h2>📊 Task Completion Analytics</h2>
+            <p>Track your productivity and progress</p>
+        </div>
+
+        <span class="analytics-label">Live Overview</span>
+    </div>
+
+    <div class="analytics-percentage">
+        <h1 id="progressPercentage">0%</h1>
+        <p>Overall Completion</p>
+    </div>
+
+    <div class="analytics-bar">
+        <div id="progressFill"></div>
+    </div>
+
+    <div class="analytics-details">
+
+        <div class="analytics-item">
+            <span class="analytics-dot completed-dot"></span>
+            <div>
+                <h3 id="progressCompleted">0</h3>
+                <p>Completed</p>
+                <small id="completedPercentage">0%</small>
+            </div>
+        </div>
+
+        <div class="analytics-item">
+            <span class="analytics-dot pending-dot"></span>
+            <div>
+                <h3 id="progressRemaining">0</h3>
+                <p>Pending</p>
+                <small id="pendingPercentage">0%</small>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="analytics-footer">
+        <span>Total Tasks</span>
+        <strong id="analyticsTotal">0</strong>
+    </div>
+
+</section>
+
+
+            <footer>
+                <p>© 2026 TaskFlow. Stay focused. Get things done.</p>
+            </footer>
+
+        </main>
+
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
