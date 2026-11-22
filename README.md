@@ -85,7 +85,7 @@ An innovative smart traffic management project focused on helping ambulances rea
 ## 📫 Connect With Me
 
 - **GitHub:** [JeevithaAmmulu](https://github.com/JeevithaAmmulu)
-- **LinkedIn:** [Jeevitha L](https://www.linkedin.com/in/jeevitha-l)
+- **LinkedIn:** [Jeevitha L](https://www.linkedin.com/in/jeevitha-l-02811a37b/)
 - **Email:** jeeviammulu2005@gmail.com
 
 ---
