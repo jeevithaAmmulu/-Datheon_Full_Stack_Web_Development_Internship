@@ -114,3 +114,40 @@ const navObserver = new IntersectionObserver(entries => {
   });
 }, { rootMargin: '-35% 0px -55% 0px' });
 sections.forEach(section => navObserver.observe(section));
+const roles = [
+  "3rd Year ISE Student",
+  "Software Developer",
+  "Java Enthusiast",
+  "Frontend Developer",
+  "Technology Enthusiast"
+];
+
+let roleIndex = 0;
+const typingText = document.getElementById("typing-text");
+
+function changeRole() {
+  typingText.textContent = roles[roleIndex];
+  roleIndex = (roleIndex + 1) % roles.length;
+}
+
+changeRole();
+setInterval(changeRole, 2000);
+window.addEventListener("scroll", () => {
+
+const height =
+document.documentElement.scrollHeight -
+window.innerHeight;
+
+const scrolled =
+(window.scrollY / height) * 100;
+
+document.getElementById("progress-bar")
+.style.width = scrolled + "%";
+
+});
+const glow=document.querySelector(".cursor-glow");
+
+document.addEventListener("mousemove",(e)=>{
+  glow.style.left=e.clientX+"px";
+  glow.style.top=e.clientY+"px";
+});

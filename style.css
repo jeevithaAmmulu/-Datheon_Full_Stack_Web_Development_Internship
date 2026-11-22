@@ -1,4 +1,10 @@
-/* Jeevitha's Developer Portfolio — edit the variables below to change the theme */
+*{
+transition:
+background-color .3s ease,
+color .3s ease,
+transform .3s ease,
+border-color .3s ease;
+}/* Jeevitha's Developer Portfolio — edit the variables below to change the theme */
 :root {
   --bg: #080d18; --surface: #101827; --surface-2: #141f31; --text: #edf3ff;
   --muted: #91a0b8; --line: rgba(157,180,216,.15); --accent: #58d6ee;
@@ -76,4 +82,101 @@ body:has(.site-header) .site-header { width: 100%; padding-inline: max(24px, cal
     height:250px;
     object-fit:cover;
     display:block;
+}
+#typing-text{
+    color:#8b5cf6;
+    font-size:1.8rem;
+    font-weight:600;
+    min-height:50px;
+}
+.project-card{
+backdrop-filter: blur(15px);
+background: rgba(255,255,255,0.08);
+border: 1px solid rgba(255,255,255,0.15);
+box-shadow: 0 8px 32px rgba(0,0,0,.2);
+transition:.4s;
+}
+
+.project-card:hover{
+transform:translateY(-10px);
+box-shadow:0 20px 40px rgba(124,58,237,.25);
+}
+#progress-bar{
+position:fixed;
+top:0;
+left:0;
+width:0%;
+height:4px;
+background:#7c3aed;
+z-index:9999;
+}
+.nav-link{
+    position:relative;
+}
+
+.nav-link::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-5px;
+    width:0%;
+    height:2px;
+    background:#2563eb;
+    transition:0.3s ease;
+}
+
+.nav-link:hover::after{
+    width:100%;
+}
+
+.nav-link.active::after{
+    width:100%;
+}
+.nav-link:hover{
+    color:#2563eb;
+    text-shadow:0 0 10px rgba(37,99,235,.4);
+}
+.bg-glow{
+    position:fixed;
+    top:20%;
+    right:10%;
+
+    width:500px;
+    height:500px;
+
+    background:linear-gradient(
+        135deg,
+        #06b6d4,
+        #8b5cf6
+    );
+
+    border-radius:50%;
+    filter:blur(180px);
+
+    opacity:0.15;
+
+    z-index:-1;
+    pointer-events:none;
+}
+
+.hero h1{
+  font-size:6rem;
+  font-weight:800;
+  text-shadow:
+  0 0 10px #60a5fa,
+  0 0 20px #8b5cf6,
+  0 0 40px #06b6d4;
+}
+.tech-stack{
+ display:flex;
+ gap:10px;
+ flex-wrap:wrap;
+ margin-top:20px;
+}
+
+.tech-stack span{
+ padding:8px 15px;
+ border-radius:20px;
+ background:rgba(255,255,255,.08);
+ border:1px solid rgba(255,255,255,.15);
 }
