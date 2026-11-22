@@ -9,7 +9,7 @@ Repository containing full-stack web development projects built by Manogna Shree
 
 **Live Demo**: https://datheon-full-stack-web-development-roan.vercel.app/
 
-Responsive single-page portfolio built with semantic HTML5, modern CSS3, and vanilla JavaScript featuring dark/light theme persistence, mobile navigation, education & achievements, technical skills, 8 featured projects, and direct Gmail contact integration.
+Responsive single-page portfolio built with semantic HTML5, modern CSS3, and vanilla JavaScript featuring dark/light theme persistence, mobile navigation, education & achievements, technical skills,  featured projects, and direct Gmail contact integration.
 
 ## 📫 Connect With Me
 
