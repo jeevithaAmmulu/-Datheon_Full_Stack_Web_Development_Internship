@@ -180,3 +180,32 @@ z-index:9999;
  background:rgba(255,255,255,.08);
  border:1px solid rgba(255,255,255,.15);
 }
+
+/* Remove glowing effect from Jeevitha L */
+.hero h1,
+.hero h1 .gradient-text,
+.profile-name,
+.brand {
+    text-shadow: none !important;
+    filter: none !important;
+    box-shadow: none !important;
+}
+
+/* Keep the name clear and normal */
+.hero h1 {
+    text-shadow: none;
+}
+
+/* Remove glow from gradient name */
+.gradient-text {
+    text-shadow: none !important;
+    filter: none !important;
+}
+
+/* Remove unwanted glow from hover */
+.brand:hover,
+.hero h1:hover,
+.profile-name:hover {
+    text-shadow: none !important;
+    filter: none !important;
+}
