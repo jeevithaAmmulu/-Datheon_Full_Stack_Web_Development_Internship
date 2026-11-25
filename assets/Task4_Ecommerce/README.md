@@ -18,6 +18,3 @@ A responsive Ecommerce Website built using HTML5, CSS3, and JavaScript. The appl
 - HTML5
 - CSS3
 - JavaScript (ES6)
-
-### Live Demo
-🔗 https://task3-ecommerce.vercel.app/
