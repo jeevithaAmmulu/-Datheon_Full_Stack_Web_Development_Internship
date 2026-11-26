@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weatherly | Live Weather Dashboard</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="weather-app">
+
+        <!-- Header -->
+        <header class="header">
+            <div class="brand">
+                <span class="brand-icon">☁</span>
+                <h1>Weatherly</h1>
+            </div>
+
+            <p class="tagline">Real-time weather & climate telemetry</p>
+        </header>
+
+        <!-- Search Section -->
+        <section class="search-section">
+            <form id="weatherForm">
+                <input
+                    type="text"
+                    id="cityInput"
+                    placeholder="Search any city..."
+                    required
+                >
+
+                <button type="submit" id="searchBtn">
+                    Search
+                </button>
+            </form>
+        </section>
+
+        <!-- Loading Spinner -->
+        <div id="loader" class="loader hidden">
+            <div class="spinner"></div>
+            <p>Fetching weather data...</p>
+        </div>
+
+        <!-- Error Message -->
+        <div id="errorMessage" class="error hidden"></div>
+
+        <!-- Weather Content -->
+        <main id="weatherContent" class="hidden">
+
+            <!-- Current Weather -->
+            <section class="current-weather">
+
+                <div class="location-info">
+                    <h2 id="cityName">City</h2>
+                    <p id="countryName">Country</p>
+                    <p id="currentDate"></p>
+                </div>
+
+                <div class="weather-main">
+                    <div class="weather-icon">
+                        <img id="weatherIcon" src="" alt="Weather icon">
+                    </div>
+
+                    <div class="temperature">
+                        <h1 id="temperature">--°</h1>
+                        <p id="weatherDescription">Weather condition</p>
+                    </div>
+                </div>
+
+                <p id="feelsLike">Feels like --°</p>
+
+            </section>
+
+            <!-- Weather Metrics -->
+            <section class="metrics">
+
+                <div class="metric-card">
+                    <span class="metric-icon">💧</span>
+                    <p>Humidity</p>
+                    <h3 id="humidity">--%</h3>
+                </div>
+
+                <div class="metric-card">
+                    <span class="metric-icon">💨</span>
+                    <p>Wind Speed</p>
+                    <h3 id="windSpeed">-- km/h</h3>
+                </div>
+
+                <div class="metric-card">
+                    <span class="metric-icon">🌡</span>
+                    <p>Pressure</p>
+                    <h3 id="pressure">-- hPa</h3>
+                </div>
+
+            </section>
+
+            <!-- Forecast -->
+            <section class="forecast-section">
+
+                <div class="section-heading">
+                    <h2>5-Day Forecast</h2>
+                    <p>Upcoming weather</p>
+                </div>
+
+                <div id="forecastContainer" class="forecast-container">
+                </div>
+
+            </section>
+
+        </main>
+
+        <!-- Welcome Screen -->
+        <section id="welcome" class="welcome">
+            <div class="welcome-icon">🌤️</div>
+            <h2>Explore the Weather</h2>
+            <p>Search for a city to discover real-time weather conditions and a 5-day forecast.</p>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>Weatherly · Powered by OpenWeatherMap</p>
+        </footer>
+
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
