@@ -54,10 +54,10 @@ Weatherly is a modern weather forecasting web application that provides real-tim
 
 **🛠️ Technologies Used**
 
-HTML5
-CSS3
-JavaScript (ES6)
-OpenWeather API
+HTML5,
+CSS3,
+JavaScript (ES6),
+OpenWeather API.
 
 ## Task 4 — Ecommerce Website: assets/Task4_Ecommerce/
 
